@@ -1,0 +1,10 @@
+logging:
+  level:
+    com.example: debug
+
+server:
+  port: 8080
+
+#this should be configured to whatever the resource server is set to
+camunda:
+  baseUrl: 'http://127.0.0.1:8081'
